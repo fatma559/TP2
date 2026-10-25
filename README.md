@@ -1,7 +1,7 @@
 # TP2 REST : Service web « Calculatrice » avec JAX-RS et Tomcat
 
 **Matière :** Architecture MicroServices, **Filière :** MPSRCC1
-**Étudiante :** Fatma Chérif
+**Étudiante :** Fatma Cherif
 
 ## 1. Environnement
 - JDK 17+, Maven, Apache Tomcat 10.1.61, IntelliJ IDEA
@@ -96,13 +96,10 @@ Les opérations sont conservées en mémoire : elles sont perdues à chaque red�
 | 7 | POST /operations | `{"operateur":"racine","a":9,"b":0}` | 400 | `{"erreur":"Calcul impossible"}` |
 
 ![F3-1](captures/F3_01_post_somme.png)
-![F3-1 Location](captures/F3_01b_location.png)
 ![F3-2](captures/F3_02_post_division.png)
 ![F3-3](captures/F3_03_get_liste.png)
-![F3-4](captures/F3_04_get_2.png)
 ![F3-5](captures/F3_05_get_99.png)
 ![F3-6](captures/F3_06_post_div0.png)
-![F3-7](captures/F3_07_post_racine.png)
 
 ### F.4 : PUT
 
@@ -114,9 +111,7 @@ Les opérations sont conservées en mémoire : elles sont perdues à chaque red�
 | 11 | PUT /operations/1 | `{"operateur":"division","a":8,"b":0}` | 400 | `{"erreur":"Calcul impossible"}` |
 
 ![F4-8](captures/F4_08_put_1.png)
-![F4-9](captures/F4_09_get_1.png)
-![F4-10](captures/F4_10_put_99.png)
-![F4-11](captures/F4_11_put_div0.png)
+
 
 ### F.5 : DELETE
 
@@ -128,7 +123,6 @@ Les opérations sont conservées en mémoire : elles sont perdues à chaque red�
 
 ![F5-12](captures/F5_12_delete_1.png)
 ![F5-13](captures/F5_13_get_1.png)
-![F5-14](captures/F5_14_delete_1_bis.png)
 
 ## 5. Tests des parties C, D et E
 
