@@ -212,10 +212,10 @@ Le premier test (POST) a été exécuté après un redéploiement : les identifi
 ![F3-1](captures/F3_01_post_somme.png)
 
 **Test 2 : POST création (division)**
-![F3-2](captures/F3_02_post_division.png)
+![F3-2](captures/F3_02_post_division.png.png)
 
 **Test 3 : GET de la collection**
-![F3-3](captures/F3_03_get_liste.png)
+![F3-3](captures/F3_04_get_2.png.png)
 
 **Test 5 : GET d'un identifiant inexistant**
 ![F3-5](captures/F3_05_get_99.png)
