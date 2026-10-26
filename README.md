@@ -83,7 +83,7 @@ Test demandé en début de séance pour confirmer que le projet est déployé au
 
 `http://localhost:8080/RestWebApp_war_exploded/api/hello-world`
 
-![Test hello-world](hello_world)
+![Test hello-world](hello_world.png)
 
 ---
 
