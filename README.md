@@ -7,7 +7,7 @@
 | **Établissement** | Faculté des Sciences de Sfax, Département d'informatique et des Communications |
 | **Année universitaire** | 2026-2027 |
 | **Enseignantes** | Corinne Amel ZAYANI, Amal ABID |
-| **Étudiante** | Fatma Chérif |
+| **Étudiante** | Fatma Cherif |
 
 ## Sommaire
 1. [Objectif](#1-objectif)
@@ -83,7 +83,7 @@ Test demandé en début de séance pour confirmer que le projet est déployé au
 
 `http://localhost:8080/RestWebApp_war_exploded/api/hello-world`
 
-![Test hello-world](B_hello_world.png)
+![Test hello-world](hello_world)
 
 ---
 
@@ -305,4 +305,3 @@ Envoyer deux fois `POST /operations` crée **deux opérations distinctes** (id 1
 - Le sujet utilise le contexte `/RestWebApp` ; dans ce projet, le contexte est `/RestWebApp_war_exploded` (valeur par défaut d'IntelliJ).
 - Pour un identifiant inexistant ou une méthode non autorisée, Tomcat renvoie sa page d'erreur HTML par défaut : d'où l'absence de corps JSON dans les tests 5, 13 et C.1.
 - Les classes `HelloApplication` et `HelloResource`, générées par le modèle IntelliJ, ont été conservées : elles ont servi au test `hello-world` demandé en début de séance.
-- 
